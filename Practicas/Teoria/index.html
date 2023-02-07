@@ -4,9 +4,9 @@
         <meta charset="UTF-8"> <!-- UTF 8 lee caracteres especiales --> 
         <meta name="description" content="Aca se añade la descripcion de la pagina"> <!-- Name = "description" - content = "añado la descripcion"-->
         <meta name="robots" content="index,follow"> <!-- Para que mi pagina sea sugerida-->
-        <meta name="viewport" content="width=device-width"> <!-- para que la pagina se actulice al tamaño de la pantalla "Responsive" -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- para que la pagina se actulice al tamaño de la pantalla "Responsive" -->
         <title>El titulo de arriba de la pestaña</title> <!-- Titulo de arriba de la pestaña-->
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/style.css"> <!-- Para conectar con mi hoja de estilos-->
     </head>
     <body> <!-- Body todo lo que el usuario va ver -->
         <header> <!--Etiqueta contenedora del encabezado-->
@@ -17,7 +17,10 @@
         <main> <!-- Etiqueta contenedora del contenido principal -->
             <section> <!-- Etiqueta contenedora de secciones -->
                 <article> <!-- Etiqueta contenedora de articulos -->
-
+                    <figure> <!-- Etiqueta contenedora de imagenes-->
+                        <figcaption>Esto es una descripcion</figcaption> <!-- Descripcion de la imagen-->
+                        <form action=""> <!-- Etiqueta contenedora de formularios -->
+                    </figure>
                 </article>
             </section>
             <ol> <!-- Etiqueta contenedora de lista ordenadas -->
@@ -34,5 +37,7 @@
         <h1>Soy un titulo</h1> <!-- Para agregar un titulo -->
         <h2>Soy otro titulo</h2> <!-- Para agregar otro titulo de menor tamaño (los h1 pueden ser hasta h6)-->
         <a href="http://">Soy un link</a> <!-- Para agregar un link -->
+        <img src="#" alt="Si la imagen no carga muestra esta descripcion"> <!-- para agregar imagen, src = ruta - alt = una descripcion-->
+        <video src="#" controls preload="auto"></video> <!--src = link - controls(agrega los controles) - preload = "auto" carga el video-->
     </body>
 </html>
