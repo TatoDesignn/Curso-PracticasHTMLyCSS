@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Select Ejercicio</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Select Ejercicio</title>
+    </head>
+    <body>
+        <section>
+
+            <!-- funciona pero no es la mejor -->
+            <select name="cursos" id="">
+                <option value="javascript">JavaScript</option>
+                <option value="html5">Html5</option>
+                <option value="css3">CSS3</option>
+                <option value="webstandards">Web Standards</option>
+            </select>
+
+            <!-- Buenas practicas para el seleccionador-->
+            <input list="cursos">
+            <datalist id = "cursos">
+                <option value="JavaScript"></option>
+                <option value="Html5"></option>
+                <option value="css3"></option>
+                <option value="webstandards"></option>
+            </datalist>
+        </section>
+    </body>
 </html>

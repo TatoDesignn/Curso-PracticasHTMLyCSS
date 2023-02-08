@@ -1,0 +1,107 @@
+<!-- 1. Añade un título que diga: "Pagina de Películas"
+2. Crea una lista desordenada con 3 categorías de película y por cada categoría una lista ordena con 3 películas.
+3. Agrega un texto contando una película.
+4. Agrega una imagen de la película.
+5. Agrega un video que inicie desde el segundo 5 y termine el segundo 40 
+6. Cree un subtitulo que diga "Encuesta película " y agrega un formulario que pregunte el nombre de la película, 
+la hora en la vio y el día que la vio.(no olvide el botón de enviar) estos datos son requeridos
+7. Cree un selector que permita buscar y agregue 5 películas. 
+Agrega un subtitulo más pequeño que diga "Encuesta personal" y agrega un formulario que pregunte el nombre, el correo, 
+el país y el código postal, debe tener autocompletado y es un requerimiento.   -->
+
+
+<!DOCTYPE html>
+<html>
+	<head lang = "es">
+		<meta charset = "UTF-8">
+		<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+		<meta name = "description" content = "Este es mi segundo desafio, toy contento">
+		<meta name = "robots" content = "index,follow">
+		<title>Desafio2</title>
+	</head>
+	<body>
+		<header> 
+			<h1>Pagina de peliculas!</h1>
+		</header>
+		<main>
+			<section>
+				<ul>
+					<li>Terror</li>
+					<ol>
+						<li>ScaryMovie</li>
+						<li>Ouija</li>
+						<li>Noche del demonio</li>
+					</ol>
+				</ul>
+				<ul>
+					<li>Comedia</li>
+					<ol>
+						<li>Son como niño</li>
+						<li>Donde estan las rubias</li>
+						<li>Pequeño pero peligroso</li>
+					</ol>
+				</ul>
+				<ul>
+					<li>Drama</li>
+					<ol>
+						<li>Amigos con beneficio</li>
+						<li>3 metros bajo el cielo</li>
+						<li>Garra</li>
+					</ol>
+				</ul>
+				<p>ScaryMovie me parecio una pelicula de terror muy chistosa, junto con toda su saga</p>
+				<figure>
+					<img src = "#" alt = "imagen de una peli de terror">
+					<figcaption>Imagen de peli</figcaption>
+					<video src = "#5, 40" controls preload="auto"></video>
+				</figure>
+			</section>
+			<div>
+				<h2>Encuesta Pelicula</h2>
+				<form action = "">
+					<label for = "nombreP">
+						<span>Nombre pelicula: </span>
+						<input type = "text" name = "nombreP" id = "nombreP" required>
+					</label>
+					<label for = "hora">
+						<span>Hora que la viste: </span>
+						<input type = "time" name = "hora" id = "hora" required>
+					</label>
+					<label for = "dia">
+						<span>Dia que lo vio: </span>
+						<input type = "date" name = "dia" id = "dia" required>
+					</label>
+					<input type = "submit">
+				</form>
+				<input list = "peliculas">
+				<datalist id = "peliculas">
+					<option value = "ScaryMovie"></option>
+					<option value = "Mi pobre angelito"></option>
+					<option value = "Jackass"></option>
+					<option value = "Spiderman"></option>
+					<option value = "Superman"></option>
+				</datalist>
+				<h3>Encuesta personal</h3>
+				<form action = "">
+					<label for = "nombre">
+						<span>Cual es tu nombre:</span>
+						<input type = "text" name = "nombre" id = "nombre" autocomplete = "name" requerid>
+					</label>
+					<label for = "correo">
+						<span>Cual es tu correo:</span>
+						<input type = "email" name = "correo" id = "correo" autocomplete = "email" requerid>
+					</label>
+					<label for = "pais">
+						<span>Cual es tu pais:</span>
+						<input type = "text" name = "pais" id = "pais" autocomplete = "country" requerid>
+					</label>
+					<label for = "codigo">
+						<span>Cual es tu codigo:</span>
+						<input type = "text" name = "codigo" id = "codigo" autocomplete = "postal-code" requerid>
+					</label>
+					<input type = "submit">
+				</form>
+			</div>
+		</main>
+	</body>
+</html>
