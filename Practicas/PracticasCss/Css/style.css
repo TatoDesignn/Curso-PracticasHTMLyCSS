@@ -1,0 +1,17 @@
+/* por etiqueta */
+p{
+    color: red;
+    font-size: 20px;
+}
+
+/* por clase se añade un . y el nombre */
+.texto1{
+    color: blue;
+    font: arial;
+}
+
+/* por id se añade un # y el nombre */
+#texto2{
+    color: yellow;
+    font-size: 30px;
+}

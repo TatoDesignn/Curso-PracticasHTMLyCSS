@@ -1,0 +1,30 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+    background-color: #13a4a4;
+    
+}
+
+.main-nav__item{
+    display: inline-block;
+}
+
+.main-nav__item a{
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover{ /*Hover sirve para cuando el mouse esta sobre el elemento*/
+    color: #70f0f0;
+}
+
+.main-nav__item a:active{ /*Active sirve para cuando se da click*/
+    color: blue;
+}
+
+.main-nav__item a::after{
+    content: " | ";
+}

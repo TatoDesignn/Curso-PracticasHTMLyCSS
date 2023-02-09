@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav{
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nav li{
+    display: inline-block;
+
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    background-color: #13a4a4;
+    padding: 3px;
+    border-radius: 5px;
+}
+
