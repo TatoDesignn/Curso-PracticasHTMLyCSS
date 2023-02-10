@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+h1, p{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.div-titulo{
+    width: 20.0rem;
+    background-color: rgb(228, 56, 56);
+    border-radius: 1.0rem;
+    border: 0.1rem solid black;
+    margin: 0 auto;
+    position: relative;
+    top: 1.0rem;
+}
+
+.div-texto{
+    width: 40.0rem;
+    height: 10.0rem;
+    padding: 3.0rem;
+    background-color: rgb(232, 232, 232);
+    border-radius: 2.0rem;
+    border: 0.1rem solid black;
+    margin: 0 auto;
+}
