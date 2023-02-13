@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 6.0rem;
+    background-color: #13a4a4;
+}
+
+figure{
+    color: white;
+    position: absolute;
+    top: 2.0rem;
+    left: 2.0rem;
+    font-size: 1.6rem;
+}
+
+ul{
+    list-style: none;
+    position: absolute;
+    right: 3.0rem;
+    top: 2.0rem;
+}
+
+li{
+    color: white;
+    font-size: 1.6rem;
+    display: inline-block;
+    margin-right: 2.0rem;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    height: 60.0rem;
+}
+
+.main-selector{
+    background-color: aquamarine;
+    width: 20%;
+    height: 60.0rem;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.cajon1, .cajon2, .cajon3, .cajon4{
+    width: 20.0rem;
+    height: 100px;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    border: 0.1rem solid black;
+    margin-bottom: 3.0rem;
+}
+
+section{
+    color: white;
+    width: 80%;
+    font-size: 1.6rem;
+    background-color: black;
+    margin: 0;
+    padding: 5.0rem;
+}
+
+footer{
+    background-color: rgb(8, 63, 66);
+    width: 100%;
+    height: 63px;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.text1{
+    display: inline;
+    position: relative;
+    top: 2.0rem;
+    left: 2.0rem;
+}
+
+.text2{
+    position: relative;
+    
+    left: 115.0rem;
+}

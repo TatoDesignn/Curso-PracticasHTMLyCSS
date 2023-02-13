@@ -1,0 +1,38 @@
+.box {
+    position: relative;
+}
+
+div{
+    font-family:Arial, Helvetica, sans-serif ;
+    position: relative;
+    top: 0.5rem;
+}
+
+input{
+    border: 1.5px solid orange;
+    border-radius: 5px;
+    background: none;
+    padding: .5rem;
+    font-size: 1rem;
+    transition: 150ms cubic-bezier(.4, 0, .2, 1);
+}
+
+label{
+    color: orange;
+    position: absolute;
+    left: 16px;
+    pointer-events: none;
+    transition: 150ms cubic-bezier(.4, 0, .2, 1);
+    transform: translateY(1rem);
+}
+
+input:focus{
+    outline: none;
+    border: 1.5px solid lightsteelblue;
+}
+
+input:focus ~ label{
+    transform: translateY(-50%) scale(1.1);
+    background: white;
+    color: lightsteelblue;
+}

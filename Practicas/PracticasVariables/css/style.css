@@ -1,0 +1,47 @@
+:root{
+    --colorHead: #13a4a4;
+    --colorFooter: rgb(8, 63, 66);
+    --navHeiht: 6.0rem;
+    --mainHeight: 60.0rem;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+nav{
+    background-color: var(--colorHead);
+    width: 100%;
+    height: var(--navHeiht);
+}
+
+main{
+    display: flex;
+    width: 100%;
+    height: 60.0rem;
+}
+
+section{
+    background-color: aqua;
+    width: 20%;
+    height: var(--mainHeight);
+}
+
+div{
+    background-color: black;
+    width: 80%;
+    height: 60.0rem;
+}
+
+footer{
+    background-color: var(--colorFooter);
+    width: 100%;
+    height: 63px;
+}
+
