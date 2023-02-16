@@ -40,7 +40,7 @@ nav{
 
 .carrito{
     position: absolute;
-    right: 2.0rem;
+    right: 3.5rem;
 }
 
 .carrito img{
@@ -236,6 +236,7 @@ nav{
     top: 3.0rem;
 }
 
+
 .producto2 span{
     position: relative;
     margin: 0 auto;
@@ -255,7 +256,163 @@ nav{
 .main-contacto{
     width: 100%;
     height: 20.0rem;
-    margin-bottom: 3.0rem;
+    margin-bottom: 4.0rem;
     background-color: var(--claro);
-    padding: 2.0rem 5.0rem;
+    font-family: var(--fuente);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--colortitulo);
+    border-bottom: 0.2rem solid var(--oscuro);
+}
+
+.Email{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0;
+}  
+
+.Email input{
+    border-radius: 0.5rem;
+    position: relative;
+    width: 16.0rem;
+    height: 2.8rem;
+}
+
+
+.Email span{
+    color: var(--colorfuente);
+    position: absolute;
+    top: 0.2rem;
+    left: 1.5rem;
+}
+
+.texto{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0;
+}  
+
+
+.texto input{
+    border-radius: 0.5rem;
+    position: relative;
+    width: 30.0rem;
+    height: 6.0rem;
+}
+
+.texto span{
+    color: var(--colorfuente);
+    position: absolute;
+    top: 0.2rem;
+    left: 1.5rem;
+}
+
+.enviar2 {
+    width: 6.0rem;
+    border-radius: 5.0rem;
+    position: relative;
+    background-color: var(--boton);
+    color: var(--colortitulo);
+    left: 25.0rem;
+}
+
+.Pie{
+    background-color: var(--oscuro);
+    width: 100%;
+    height: 6.0rem;
+    color: var(--colortitulo);
+    display: flex;
+    font-family: var(--fuente);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width: 768px){
+
+    .main-bienvenida{
+        background-color: var(--claro);
+        border-bottom: 0.2rem solid var(--oscuro);
+        width: 100%;
+        height: 20.0rem;
+        padding: 4.0rem 5.0rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main-bienvenida h1{
+        padding-bottom: 0;
+        height: 3.0rem;
+    }    
+
+    .main-contacto{
+        height: 25.0rem;
+    }
+    
+}
+
+@media (min-width: 800px){
+    
+    nav{
+        width: 800px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .nav-menu{
+        width: 800px;
+        margin-bottom: 3.0rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 3.0rem;
+    }
+
+    .main-bienvenida{
+        width: 800px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .main-bienvenida img{
+        top: 0rem;
+    }
+
+    .main-productos{
+        width: 800px;
+        height: 60.0rem;
+        margin: 0 auto;
+        padding: 0 1.0rem;
+        flex-direction: row;
+        flex-wrap: wrap;    
+        justify-content: space-evenly;
+        align-content: center;
+        border-left: 0.2rem solid var(--oscuro);
+        border-right: 0.2rem solid var(--oscuro);
+    }
+
+    .main-productos h1{
+        width: 800px;
+        display: grid;
+        place-items: center;
+    }
+
+    .producto2{
+        margin-top: 12.0rem;
+    }
+
+    .main-contacto{
+        width: 800px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .Pie{
+        width: 800px;
+        margin: 0 auto;
+    }
 }
